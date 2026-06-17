@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
-<body>
+<body class="">
 <header class="flex justify-between p-[20px] items-center max-w-[1250px] m-auto">
 
     <h1 class="text-[blue] text-[30px] font-mono ">GetWash</h1>
@@ -130,26 +130,61 @@
     <button class="mt-[50px]  w-[40%] bg-[blue] p-5   text-[white] rounded-xl ">Стать партнером</button>
 </div>
 
-<header class="flex justify-evenly items-center mt-[50px] bg-[blue] text-[white] p-5 max-w-[1250px] m-auto rounded-xl">
+<header class="flex justify-between items-center mt-[50px] bg-[blue] text-[white] p-5 max-w-[1250px] m-auto rounded-xl flex-col">
 
-    <div class="">
+    <div class="text-center lg:text-start">
 <h1 class="text-[50px]">Хватит тратить свое <br>
 время в очередях</h1>
 <br>
 <p class="text-[30px]">Приложение скоро будет доступно для бета <br>
 тестирования в AppStore и Google Play</p>
 <br>
- <div class="flex gap-[20px]">
+ <div class="flex gap-[20px] m-auto flex-col lg:flex-row">
 
     <img src="./Image/image 1456.png" alt="">
     <img src="./Image/image 1457.png" alt="">
 </div>
     </div>
 
-    <img src="./Image/Mask Group (3).png" alt="">
+    <img class="hidden lg:block" src="./Image/Mask Group (3).png" alt="">
+<img class="lg:hidden w-[100%] mt-[50px]" src="./Image/Mask Group (5).png" alt="">
+</header>
+
+<header class="flex items-center justify-evenly mt-[50px] max-w-[1250px] m-auto flex-col lg:flex-row">
+
+<div class="text-center lg:text-start">
+<h1 class="text-[40px]">Отзывы о приложении</h1>
+<br>
+<p class="text-[20px]">Таким образом консультация с широким активом влечет за собой процесс внедрения и <br> модернизации направлений прогрессивного развития. Разнообразный и богатый опыт <br> сложившаяся структура организации обеспечивает широкому кругу (специалистов) <br>
+участие в формировании модели развития.</p>
+
+</div>
+
+<div class="flex gap-[20px] mt-[50px]">
+    <h1 class="text-[50px]">⏪</h1>
+    <h1 class="text-[50px]">⏩</h1>
+</div>
 
 </header>
 
+<div class="flex items-center mt-[50px] max-w-[1250px] m-auto gap-[20px] ml-[20px] hidden lg:flex">
+<img src="./Image/Mask Group (4).png" alt="">
+<nav>
+    <h1>John Doe</h1>
+    <h1>Водитель</h1>
+</nav>
+</div>
+
+<header class="flex p-5 mt-[50px] items-center bg-[blue] justify-evenly text-[white] max-w-[1250px] m-auto rounded-xl flex-col text-center lg:text-start lg:flex-row">
+<h1 class="text-[40px]">GetWash</h1>
+<div class="flex gap-[20px] flex-col lg:flex-row">
+ <p>Как использовать</p>
+        <p>Партнерам</p>
+        <p>Скачать</p>
+        <p>Отзывы</p>
+</div>
+<button class="text-[white] p-5 border-2 rounded-xl ">Получить доступ</button>
+</header>
 
 </body>
 </html>
